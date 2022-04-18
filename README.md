@@ -6,7 +6,8 @@ This repo is the official implementation of ["Protecting Celebrities from DeepFa
 
 In this work we propose Identity Consistency Transformer(ICT), a novel face forgery detection method that focuses on high-level semantics, specifically identity information, and detecting a suspect face by finding identity inconsistency in inner and outer face regions. The Identity Consistency Transformer incorporates a consistency loss for identity consistency determination. We show that Identity Consistency Transformer exhibits superior generalization ability not only across different datasets but also across various types of image degradation forms found in real-world applications including deepfake videos. The Identity Consistency Transformer can be easily enhanced with additional identity information when such information is available, and for this reason it is especially well-suited for detecting face forgeries involving celebrities.
 
-
+![mask](data/mask.png)
+![pipeline](data/pipeline.png)
 
 ## Requirements
 
@@ -25,7 +26,7 @@ bash setup.sh
 
 2. Download the RenitaFace [ResNet50](https://drive.google.com/drive/folders/1oZRSG0ZegbVkVwUd8wUIQx8W7yfZ_ki1) and move it to `PRETRAIN/ALIGN`.
 
-3. Extract faces from videos and algin them.
+3. Extract faces from videos and align them.
     ```
     python -u preprosee.py
     ```
