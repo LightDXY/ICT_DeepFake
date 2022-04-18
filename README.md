@@ -58,9 +58,9 @@ The robustness evaltuation log on FF++ could be found [here](https://github.com/
 
 # Acknowledgments
 
-This code borrows heavily from [RenitaFace](https://github.com/biubug6/Pytorch_Retinaface).
+This code borrows heavily from [TreB1eN/InsightFace_Pytorch](https://github.com/TreB1eN/InsightFace_Pytorch).
 
-The ViT model modified from [DEiT](https://github.com/facebookresearch/deit)
+The ViT model is modified from [DEiT](https://github.com/facebookresearch/deit)
 
 The face detection network comes from [biubug6/Pytorch_Retinaface](https://github.com/biubug6/Pytorch_Retinaface).
 
