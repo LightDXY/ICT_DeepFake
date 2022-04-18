@@ -1,4 +1,4 @@
-# ICT_DeepFake, CVPR2022
+# ICT DeepFake Detection, CVPR2022
 
 This repo is the official implementation of ["Protecting Celebrities from DeepFake with Identity Consistency Transformer"](https://arxiv.org/abs/2203.01318v3).
 
