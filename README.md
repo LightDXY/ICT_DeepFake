@@ -31,7 +31,7 @@ bash setup.sh
     ```
    This is a simple example, modify the input/output path for different datasets.
 
-   We also provide an aligned subset of [FF++](https://github.com/LightDXY/ICT_DeepFake/releases/download/v0.1.0/FF.zip) test set, which contains 20K real faces and 20K fake faces (from DeepFake part and FaceSwap Part). Extract the zip file and move it to `DATASET/FF` for fast evaluation.
+   We also provide an aligned subset of [FF++](https://drive.google.com/file/d/1TT_rce53APTw2m6BzCNo-xv7bfUqQql0/view?usp=sharing) test set, which contains 20K real faces and 20K fake faces (from DeepFake part and FaceSwap Part). Extract the zip file and move it to `DATASET/FF` for fast evaluation.
 
 ## Evaluate
 
